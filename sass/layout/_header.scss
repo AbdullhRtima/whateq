@@ -1,0 +1,33 @@
+.header{
+        height: 123vh;
+        
+    background-image:
+          url(../img/bk1.jpg);
+   background-size: cover;
+   background-position: top;
+   position: relative;
+
+   @media (min-resolution : 192dpi) and (min-width : 600px) ,  (min-width : 9000px){
+       background-image: 
+             url(../img/bk1.jpg);
+   }
+    
+
+&__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+&__logo{
+    height: 3.5rem;
+    
+}
+
+&__text-box{
+    position: absolute;
+    top: 38%;
+    right:5%;
+    text-align: right;
+}
+}
